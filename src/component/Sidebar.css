@@ -1,0 +1,11 @@
+.textLine {
+  margin: 5px;
+}
+
+.sideBarTitle {
+  background-image: linear-gradient(to right, white, grey);
+  color: #3877cd;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px 0 10px 0;
+}
