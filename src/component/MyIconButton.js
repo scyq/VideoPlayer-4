@@ -4,7 +4,11 @@ import { Box } from "@mui/system";
 
 function MyIconButton(props) {
   return (
-    <Button className="Button" onClick={props._onClick}>
+    <Button
+      className="Button"
+      onClick={props._onClick}
+      disabled={props.disabled}
+    >
       {props.icon}
       <Box sx={{ color: "black" }}>{props.text}</Box>
     </Button>

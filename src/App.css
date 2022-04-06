@@ -13,10 +13,19 @@
   margin: 20px;
 }
 
-.toolBar {
+.content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  background-color: #f1eff1;
   padding: 10px;
+  width: 100%;
+}
+
+.title {
+  font-size: 3em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.result {
 }
