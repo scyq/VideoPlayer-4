@@ -7,6 +7,7 @@ const videoUrls = [
 
 const resultUrls = {
   trackGeneration: "trackGeneration.jpg",
+  bias: "bias.jpg",
 };
 
 export { videoUrls, resultUrls };

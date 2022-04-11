@@ -25,12 +25,17 @@ function Toolbar(props) {
     {
       icon: <CropRotateIcon fontSize="large" />,
       text: "旋转显示",
-      _onClick: () => {},
+      _onClick: () => {
+        props.setOpen(true);
+      },
     },
     {
       icon: <PercentOutlinedIcon fontSize="large" />,
       text: "偏差估计",
-      _onClick: () => {},
+      _onClick: () => {
+        props.setResult(resultUrls.bias);
+        props.setOpen(true);
+      },
     },
   ]);
 
